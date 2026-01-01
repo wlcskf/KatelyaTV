@@ -10,7 +10,7 @@ services:
       # 数据库配置 - 使用 Kvrocks
       NEXT_PUBLIC_STORAGE_TYPE: kvrocks
       KVROCKS_URL: redis://kvrocks:6666
-      KVROCKS_PASSWORD: ${KVROCKS_PASSWORD:-}
+      KVROCKS_PASSWORD:""
       KVROCKS_DATABASE: 0
       
       # 管理员账号配置（必填）
